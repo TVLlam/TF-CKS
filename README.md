@@ -56,19 +56,18 @@
 *(Bạn cần thay thế "login_interface.png" bằng ảnh chụp màn hình thực tế của bạn, ví dụ: "Screenshot 2025-06-04 155648.png" nếu đó là ảnh của bạn)*
 
 ### Trang ứng dụng chính (Dashboard)
-<img src="static/assets/main_app_dashboard.png" alt="Main App Interface" width="800">
+<img src="Screenshot 2025-06-15 184914.png" alt="Main App Interface" width="800">
 <br>
 *Giao diện chính của ứng dụng (Dashboard), hiển thị các phần quản lý file, chia sẻ và tải xuống.*
 *(Bạn cần thay thế "main_app_dashboard.png" bằng ảnh chụp màn hình thực tế của bạn, ví dụ: "Screenshot 2025-06-04 155711.png")*
 
 ### Tính năng tải lên và chia sẻ file
-<img src="static/assets/upload_share_feature.png" alt="Upload and Share Feature" width="800">
-<br>
+
 *Khu vực tải file lên và tùy chọn chia sẻ file đã tải lên với người dùng khác trong hệ thống, bao gồm modal gửi file.*
 *(Bạn cần thay thế "upload_share_feature.png" bằng ảnh chụp màn hình thực tế của bạn, ví dụ: "Screenshot 2025-06-04 160020.png")*
 
 ### Kiểm tra tính toàn vẹn và xác thực bằng chữ ký số khi tải xuống
-<img src="static/assets/download_verify_signature.png" alt="Download and Signature Verification" width="800">
+<img src="Screenshot 2025-06-15 184234.png" alt="Download and Signature Verification" width="800">
 <br>
 *Quá trình tải xuống file kèm theo kiểm tra chữ ký số để xác minh tính nguyên vẹn của dữ liệu và nguồn gốc file.*
 *(Bạn cần chụp ảnh màn hình hiển thị thông báo xác minh chữ ký sau khi tải xuống và thay thế "download_verify_signature.png")*
@@ -135,15 +134,5 @@ http://127.0.0.1:5000/
 
 <h2>🧑‍💻 Tác giả</h2>
 
-* **[Tên của bạn]**: [Liên kết đến GitHub/LinkedIn/Portfolio của bạn]
+* **[Trần Văn Lâm]**: [https://github.com/TVLlam]
 
-<h2>📧 Liên hệ</h2>
-
-Nếu có bất kỳ câu hỏi hoặc góp ý nào về dự án, vui lòng liên hệ:
-
-* **Email:** your.email@example.com
-* **GitHub:** [https://github.com/your-github-profile](https://github.com/your-github-profile)
-
-<h2>📄 Bản quyền / Giấy phép (License)</h2>
-
-Dự án này được cấp phép theo Giấy phép MIT. Vui lòng xem file [LICENSE](LICENSE) để biết thêm chi tiết.
