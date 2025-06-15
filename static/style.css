@@ -1,0 +1,44 @@
+/* static/style.css */
+
+/* ... (giữ nguyên các đoạn CSS khác ở trên) ... */
+
+/* --- CUSTOM STYLES FOR LOGO ON DASHBOARD TITLE --- */
+.dashboard-title {
+    display: flex; /* Dùng flexbox để căn chỉnh logo và tiêu đề */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-bottom: 1.5rem; /* Khoảng cách dưới tiêu đề */
+    color: var(--text-dark); /* Màu chữ kế thừa từ biến CSS */
+}
+
+.dashboard-title img {
+    /* ĐIỀU CHỈNH KÍCH THƯỚC LOGO Ở ĐÂY */
+    height: 35px; /* Chiều cao cố định của logo (thử các giá trị khác nhau: 30px, 40px, ...) */
+    width: auto; /* Giữ tỷ lệ khung hình */
+
+    margin-right: 15px; /* Khoảng cách giữa logo và văn bản tiêu đề */
+    border-radius: var(--border-radius-sm); /* Bo tròn nhẹ góc logo */
+    box-shadow: var(--box-shadow-subtle); /* Thêm bóng đổ nhẹ cho logo */
+    flex-shrink: 0; /* Ngăn logo bị co lại trên màn hình nhỏ */
+}
+
+.dashboard-title h1 {
+    margin-bottom: 0; /* Loại bỏ margin dưới mặc định của h1 để căn chỉnh với logo */
+    font-size: 2.2rem; /* Điều chỉnh kích thước font của tiêu đề cho phù hợp với logo */
+    line-height: 1.2; /* Tối ưu khoảng cách dòng */
+}
+
+/* Responsive cho logo trên Dashboard (trên màn hình nhỏ hơn) */
+@media (max-width: 768px) {
+    .dashboard-title {
+        flex-direction: column; /* Xếp logo và tiêu đề theo cột trên màn hình nhỏ */
+        text-align: center;
+    }
+    .dashboard-title img {
+        height: 50px; /* Kích thước nhỏ hơn trên mobile */
+        margin-right: 0; /* Bỏ margin phải khi xếp theo cột */
+        margin-bottom: 10px; /* Thêm khoảng cách dưới logo */
+    }
+    .dashboard-title h1 {
+        font-size: 1.8rem;
+    }
+}
