@@ -11,7 +11,7 @@ Dự án này tập trung vào việc áp dụng các nguyên lý bảo mật c�
 * **Hệ thống Đăng ký & Đăng nhập Người dùng:**
     Người dùng có thể dễ dàng tạo tài khoản mới và đăng nhập để truy cập các tính năng của hệ thống.
     
-    ![Trang Đăng nhập](static/assets/login_page.png)
+    ![Trang Đăng nhập](Screenshot 2025-06-15 184855.png)
     *Chụp màn hình trang Đăng nhập*
 
 * **Quản lý File Cá nhân & Tải lên File:**
